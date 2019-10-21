@@ -2,10 +2,9 @@ module.exports = {
   title: 'In-app Payment',
   description: 'Backend API Documentation for In-app Payments',
   themeConfig: {
-    smoothScroll: true,
+    smoothScroll: false,
     displayAllHeaders: true,
     nav: [
-      { text: 'API', link: '/api' },
       { text: 'Laravel', link: 'https://laravel.com/docs/6.x', target: '_blank' }
     ],
     sidebar: [
@@ -20,7 +19,8 @@ module.exports = {
           'webhooks/ios'
         ]
       },
-      '/plans'
+      '/plans',
+      '/api'
     ]
   },
   markdown: {
