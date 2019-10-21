@@ -2,6 +2,7 @@ module.exports = {
   title: 'In-app Payment',
   description: 'Backend API Documentation for In-app Payments',
   themeConfig: {
+    lastUpdated: true,
     smoothScroll: false,
     displayAllHeaders: true,
     nav: [
@@ -25,5 +26,8 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  plugins: [
+    '@vuepress/back-to-top'
+  ]
 }
